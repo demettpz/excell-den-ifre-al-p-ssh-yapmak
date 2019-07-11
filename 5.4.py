@@ -40,7 +40,7 @@ class netmiko_class:
 		#self.enable = enable
 		net_connect = ConnectHandler(**test)
 
-#		net_connect = ConnectHandler(device_type='cisco_ios', ip='192.168.11.3', username='seyfi', password='Bltm1983') 
+#		net_connect = ConnectHandler(device_type='cisco_ios', ip='192.168.11.3', username='seyfi', password='sifre') 
 
 		net_connect.find_prompt()
 
